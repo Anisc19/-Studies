@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Booking | WD Travel Agency</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header>
+		<h1 align="center">WD Travel Agency</h1>
+		<nav>
+			<ul align="center">
+				<li><a href="Home Page.html">Home</a></li>
+				<li><a href="Destinations.html">Destinations</a></li>
+				<li><a href="Our Tours.html">Our Tours</a></li>
+				<li><a href="Hotels.html">Hotels</a></li>
+				<li><a href="Contact Us.html">Contact Us</a></li>
+			</ul>
+			<div align="center" class="connect">
+				<a href="Login Signin.html">Connect</a>
+			</div>
+		</nav>
+	</header>
+	<main>
+		<section class="banner1">
+			<h2 align="center">Booking</h2>
+		</section>
+		<section class="booking-form">
+			<form action="#" method="post">
+				<label for="destination">Destination:</label>
+				<input type="text" id="destination" name="destination" required>
+
+				<label for="date">Date:</label>
+				<input type="date" id="date" name="date" required>
+
+				<label for="guests">Number of Guests:</label>
+				<input type="number" id="guests" name="guests" min="1" max="10" required>
+
+				<label for="room-type">Room Type:</label>
+				<select id="room-type" name="room-type">
+					<option value="standard">Standard</option>
+					<option value="deluxe">Deluxe</option>
+					<option value="suite">Suite</option>
+				</select>
+
+				<label for="message">Special Requests:</label>
+				<textarea id="message" name="message" rows="5"></textarea>
+
+				<input type="submit" value="Book Now">
+			</form>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 WD Travel Agency. All rights reserved.</p>
+	</footer>
+</body>
+</html>

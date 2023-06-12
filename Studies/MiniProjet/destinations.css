@@ -1,0 +1,56 @@
+.destinations-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin: 40px;
+}
+
+.destinations-grid-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.destinations-grid-item img {
+  max-width: 100%;
+}
+
+.destinations-grid-item .destination-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 20px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.destinations-grid-item:hover .destination-overlay {
+  opacity: 1;
+}
+
+.destinations-grid-item h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.destinations-grid-item p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.destinations-grid-item a {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.destinations-grid-item a:hover {
+  background-color: #2980b9;
+}
+

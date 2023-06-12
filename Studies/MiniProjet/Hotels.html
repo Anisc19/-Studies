@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css"
+  </head>
+  <body>
+    <style>
+      img{height: 200px; width: 300px;}
+    </style>
+    <header>
+		<h1 align="center">WD Travel Agency</h1>
+		<nav>
+			<ul align="center">
+				<li><a href="Home Page.html">Home</a></li>
+				<li><a href="Destinations.html">Destinations</a></li>
+				<li><a href="Our Tours.html">Our Tours</a></li>
+				<li><a href="Hotels.html">Hotels</a></li>
+				<li><a href="Contact Us.html">Contact Us</a></li>
+			</ul>
+			<div align="center" class="connect">
+				<a href="Log In.html">Connect</a>
+			</div>
+		</nav>
+	</header>
+    <main>
+      <div>
+        <form action="" method="GET">
+          <label for="date_arrivee">Date d'arrivée :</label>
+          <input type="date" name="date_arrivee" id="date_arrivee"><br>
+      
+          <label for="date_depart">Date de départ :</label>
+          <input type="date" name="date_depart" id="date_depart"><br>
+      
+          <label for="destination">Destination :</label>
+          <input type="text" name="destination" id="destination"><br>
+      
+          <label for="prix">Prix maximum par nuit :</label>
+          <input type="number" name="prix" id="prix"><br>
+      
+          <label for="nbr_places">Nombre de places :</label>
+          <input type="number" name="nbr_places" id="nbr_places"><br>
+      
+          <input type="submit" value="Filtrer">
+        </form>
+      </div>
+      
+      <h1>Hotels</h1>
+      <p>Welcome to our hotels page! Here, you'll find a selection of some of the best hotels we have to offer.</p>   
+      <section class="hotel-list">
+        <article class="hotel">         
+          <div class="wrapper">
+            <img src="Hotel01.jpg" alt="Hotel 1">
+            <div class="text-box">
+            <h2>Dar Al Tawhid Intercontinental Makkah</h2>
+            <p>Located in front of Al Masjid Al-Haram, Dar Al Tawhid Intercontinental Makkah is a 5-star hotel offering luxury spacious accommodations overlooking the Grand Mosque.
+            The hotel has spacious and elegantly-furnished guestrooms, many of which provide a panoramic view of the Holy Mosque. Each room is ornately decorated and has a range of modern amenities including flat-screen TVs with satellite channels and Wi-Fi access.
+            Dar Al Tawhid InterContinental Makkah has 3 restaurants for guests to choose from, serving a wide range of international cuisine, as well as many Middle Eastern specialities with the magnificent view of the Holy Masjid Al-Haram.<br>    
+            Dar Al Tawhid is also within easy reach of Madhbaḩ Ismā‘īl and Al Jamrah al Wusţá, a 5-minute drive away.        
+            This is our guests' favourite part of Makkah, according to independent reviews.</p>
+            <a href="Booking.html" class="cta">Book Now</a>
+            </div>
+          </div>            
+        </article>
+        
+        <article class="hotel">
+          <div class="wrapper"><img src="Hotel02.jpg" alt="Hotel 2">
+            <div class="text-box">
+              <h2>El Minzah Hotel</h2>
+              <p>The El Minzah Hotel is a 5-star establishment located in the heart of Tangier, near the old medina. It offers 2 swimming pools, a gym and panoramic views of the bay.
+              The wellness center includes a sauna, jacuzzi and hammam. You can book massages and body treatments here.         
+              All air-conditioned, the rooms overlook the outdoor swimming pool, the sea or the patio. Bathrobes are provided.<br>
+              The 2 gourmet restaurants at the El Minzah Hotel serve Moroccan and international cuisine. You can also have a drink at the bar.            
+              The El Minzah is only a few steps from the old medina and the beach.<br>       
+              This is our guests' favorite part of Tangier, according to independent reviews.       
+              Couples particularly appreciate the location of this property. They give it a score of 9.4 for a stay for two.</p>
+              <a href="Booking.html" class="cta">Book Now</a>
+            </div>
+          </div>                
+        </article>
+      
+        <article class="hotel">
+          <div class="wrapper">
+            <img src="Hotel03.jpg" alt="Hotel 3">
+            <div class="text-box">
+            <h2>Marhaba Royal Salem Hotel</h2>
+            <p>Halfway between the marina El Kantaoui and downtown Sousse, blending into a setting where the Mediterranean is in the foreground,<br>
+            Hotel Marhaba Salem is a real jewel of Arabo Moorish architecture.<br>
+            Its clean lines blend beautifully with vegetation that has the charm and freshness of a garden bathed by the sea and bordered by a sandy beach.</p>
+            <a href="Booking.html" class="cta">Book Now</a>
+            </div>
+          </div>       
+        </article>
+      </section>
+    </main>
+    
+    <footer>
+      <p>&copy; 2023 WD Travel Agency. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
